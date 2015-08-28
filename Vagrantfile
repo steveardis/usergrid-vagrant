@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 				"recipe[git::default]",
 				"recipe[java::default]",
 				"recipe[maven::default]",
-				"recipe[cassandra::tarball]",
+				"recipe[cassandra-dse::tarball]",
 				"recipe[tomcat::default]",
 				"recipe[usergrid::default]"
 		]

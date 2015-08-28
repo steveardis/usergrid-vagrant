@@ -10,10 +10,10 @@ service "cassandra" do
   supports :status => true, :restart => true, :reload => true
   action [ :enable, :start ]
 end
-service "tomcat" do
-  supports :status => true, :restart => true, :reload => true
-  action [ :enable, :start ]
-end
+#service "tomcat" do
+#  supports :status => true, :restart => true, :reload => true
+#  action [ :enable, :start ]
+#end
 git "/opt/usergrid" do
 	user "root"
   repository "https://github.com/usergrid/usergrid.git"
