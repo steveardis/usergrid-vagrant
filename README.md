@@ -16,4 +16,4 @@
 
    $
    ```
-2. Navigate to the administrative portal at http://localhost/?api_url=http://localhost:8080/, and login as `superuser/test` to get started using Usergrid.
+2. Navigate to the administrative portal at [http://localhost/?api_url=http://localhost:8080/](http://localhost/?api_url=http://localhost:8080/), and login as `superuser/test` to get started using Usergrid.
